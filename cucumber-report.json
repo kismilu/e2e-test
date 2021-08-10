@@ -1,0 +1,378 @@
+[
+  {
+    "description": "\tAz outlook.com oldalra bejelentkezik az előre megadott email és jelszó párossal.",
+    "elements": [
+      {
+        "description": "",
+        "id": "bejelentkezés-az-outlook.com-oldalra;sikeres-bejelentkezés-az-outlook.com-felületére",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Sikeres bejelentkezés az outlook.com felületére",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Böngésző megnyitása",
+            "match": {
+              "location": "features\\step_definitions\\steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 497000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Betöltődik az outlook.com",
+            "match": {
+              "location": "features\\step_definitions\\steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1129000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Bejelentkezés gomb-ra kattintás",
+            "match": {
+              "location": "features\\step_definitions\\steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 434000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "\"tesztlesz@outlook.hu\" beírása és továbblépés",
+            "match": {
+              "location": "features\\step_definitions\\steps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1024000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "\"leszteszt12345\" jelszó beírása és továbblépés",
+            "match": {
+              "location": "features\\step_definitions\\steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1086000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Ellenőrzés",
+            "match": {
+              "location": "features\\step_definitions\\steps.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2043000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "\"Sikeres\" bejelentkezés",
+            "match": {
+              "location": "features\\step_definitions\\steps.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 290000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@log",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "bejelentkezés-az-outlook.com-oldalra;sikeres-bejelentkezés-az-outlook.com-felületére",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Sikeres bejelentkezés az outlook.com felületére",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Böngésző megnyitása",
+            "match": {
+              "location": "features\\step_definitions\\steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 386000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Betöltődik az outlook.com",
+            "match": {
+              "location": "features\\step_definitions\\steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1105000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Bejelentkezés gomb-ra kattintás",
+            "match": {
+              "location": "features\\step_definitions\\steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 389000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "\"tesztlesz@outlook.hu\" beírása és továbblépés",
+            "match": {
+              "location": "features\\step_definitions\\steps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1113000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "\"leszteszt123456\" jelszó beírása és továbblépés",
+            "match": {
+              "location": "features\\step_definitions\\steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1088000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Ellenőrzés",
+            "match": {
+              "location": "features\\step_definitions\\steps.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1009000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "\"Sikertelen\" bejelentkezés",
+            "match": {
+              "location": "features\\step_definitions\\steps.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 248000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@log",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "bejelentkezés-az-outlook.com-oldalra",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Bejelentkezés az outlook.com oldalra",
+    "tags": [
+      {
+        "name": "@log",
+        "line": 1
+      }
+    ],
+    "uri": "features\\log.feature"
+  },
+  {
+    "description": "\tElőre bejelentkezett email címről küld egy előre megadott email címre random subject-tel emailt. Ellenőrzi, hogy az email\n\telküldésre került-e. Kitakarítja az elküldött levelek mappáját.",
+    "elements": [
+      {
+        "description": "",
+        "id": "email-küldése;email-sikeres-küldése",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Email sikeres küldése",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 7453000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "Új üzenet gombra kattintás",
+            "match": {
+              "location": "features\\step_definitions\\steps2.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2958000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Címzett mezőjének kitöltése",
+            "match": {
+              "location": "features\\step_definitions\\steps2.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4433000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "Tárgy mezőjének kitöltése",
+            "match": {
+              "location": "features\\step_definitions\\steps2.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 447000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Elküld gomb megnyomása",
+            "match": {
+              "location": "features\\step_definitions\\steps2.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 213000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "\"Sikeres\" elküldött levél",
+            "match": {
+              "location": "features\\step_definitions\\steps2.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1254000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Takarítás",
+            "match": {
+              "location": "features\\step_definitions\\steps2.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5255000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 423000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sent",
+            "line": 1
+          },
+          {
+            "name": "@sentscen",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "email-küldése",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Email küldése",
+    "tags": [
+      {
+        "name": "@sent",
+        "line": 1
+      }
+    ],
+    "uri": "features\\sent.feature"
+  }
+]
